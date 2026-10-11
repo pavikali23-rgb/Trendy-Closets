@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Navigate,useNavigate } from "react-router
 import Navbar from "./Navbar.jsx";
 import Sidebar from "./Sidebar.jsx";
 import Mainbar from "./Mainbar.jsx";
-import Contact from "./Contact.jsx";
+import Contact from "./Contact.jsx"
 import Shop from "./Shop.jsx";
 import ProductDetails from "./ProductDetails.jsx";
 
@@ -43,7 +43,7 @@ function App() {
 
   <Route path="/shop" element={<Shop />} />
 
-  <Route path="/contact" element={<Contact />} />
+  <Route path="/contact" element={<Contact/>} />
 
   <Route path="/product/:id" element={<ProductDetails />} />
 
