@@ -4,7 +4,7 @@ import { BrowserRouter, Routes, Route, Navigate,useNavigate } from "react-router
 import Navbar from "./Navbar.jsx";
 import Sidebar from "./Sidebar.jsx";
 import Mainbar from "./Mainbar.jsx";
-import Contact from "./Contact.jsx"
+import Contact from "./Contact"
 import Shop from "./Shop.jsx";
 import ProductDetails from "./ProductDetails.jsx";
 
